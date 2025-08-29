@@ -33,7 +33,7 @@ export default function FirstPage(){
  <section className="hero">
  <div className="hero-content1">
   
-   <h1>Find the Perfect Freelancer for Your Needs...</h1>
+   <h1>Find generated</h1>
    <p>Hire top professionals for any Work from anytime, anywhere..</p>
    <div className="hero-buttons">
      <Link  className="btn primary-btn">Explore Services</Link>
