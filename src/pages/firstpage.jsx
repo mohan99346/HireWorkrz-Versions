@@ -36,8 +36,8 @@ export default function FirstPage(){
    <h1>Find the Perfect Freelancer for Your Needs Today...</h1>
    <p>Hire top professionals for any Work from anytime, anywhere..</p>
    <div className="hero-buttons">
-     <Link  className="btn primary-btn">Checkonce</Link>
-     <Link  className="btn secondary-btn">Join With Us</Link>
+     <Link  className="btn primary-btn">Explore Services</Link>
+     <Link  className="btn secondary-btn">Join as Freelancer</Link>
    </div>
    
     {showLogin && <Login Close={setShowLogin}/>} 
