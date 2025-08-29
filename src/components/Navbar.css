@@ -1,0 +1,172 @@
+/* Navbar Styles */
+/* Navbar Styles */
+.navbar {
+    border: 1px solid black;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px; /* Set navbar height */
+  padding: 0 2rem;
+  background-color:#E7E8D1;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  position:relative;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+/* Left Section */
+.navbar-left {
+  display: flex;
+  align-items: center;
+
+}
+
+/* Logo */
+.logo {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  height: 30px;
+  font-weight: bold;
+  color:#2C5F2D;
+}
+
+/* Search Bar */
+.search-bar {
+  display: flex;
+
+  left: 50px;
+  top: 4px;
+  border: 1px solid #000000;
+  border-radius: 50px;
+  padding: 0.5rem 1rem;
+  background-color: #f7f7f7;
+  width: 250px;
+  height: 15px;
+  position:relative;
+}
+
+
+.search-bar input {
+  border: none;
+  background: transparent;
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+  color: black;
+}
+
+.search-icon {
+  color: black;
+  margin-left: 8px;
+}
+
+/* Center Navigation Links */
+.nav-links {
+  display: flex;
+  position: relative;
+  left: 50px;
+  gap: 2rem;
+  list-style: none;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 400px;
+}
+
+.nav-links li {
+  cursor: pointer;
+  transition: color 0.3s;
+  color: #E7E8D1;
+}
+
+.nav-links li:hover {
+  color: #E7E8D1;
+}
+
+/* Right Section - Authentication Buttons */
+.auth-buttons {
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-left: auto; /* Push to the right */
+}
+
+.sign-in {
+  color: #1dbf73;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.sign-in:hover {
+  color: #09492a;
+}
+
+.join {
+  width: 100px;
+  height: 35px;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 35px;
+  border: 1px solid #1dbf73;
+  background:#97BC62;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.join:hover {
+  background: white;
+  color: #1dbf73;
+}
+
+/* Mobile Menu Button */
+.menu-button {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .search-bar {
+    display: none;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .auth-buttons {
+    display: none;
+  }
+
+  .menu-button {
+    display: block;
+  }
+
+  .mobile-menu {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+    gap: 1rem;
+  }
+
+  .mobile-menu input {
+    width: 80%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+}

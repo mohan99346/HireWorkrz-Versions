@@ -1,0 +1,79 @@
+body{
+  background-color: #ffffff;
+}
+.post-job-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #353131;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.post-job-container h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.post-job-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skill {
+  padding: 8px 12px;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  cursor: pointer;
+  background: rgb(51, 39, 39);
+  color: #007bff;
+  font-size: 14px;
+}
+
+.skill.selected {
+  background: #007bff;
+  color: white;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.submit-button:hover {
+  background: #0056b3;
+}

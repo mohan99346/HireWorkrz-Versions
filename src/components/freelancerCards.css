@@ -1,0 +1,105 @@
+.freelancer-section {
+  padding: 20px;
+    
+
+  max-width: 1200px;
+  max-height: 400px;
+  position: relative;
+  top: 100px;
+  
+  background-color:transparent;
+  position: relative;
+}
+
+.freelancer-section h2 {
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.freelancer-scroll {
+  display: flex;
+  overflow-x:auto ;
+  
+  gap: 15px;
+  padding: 10px 0;
+  scroll-behavior: smooth;
+}
+
+.freelancer-scroll::-webkit-scrollbar {
+  height: 6px;
+}
+
+.freelancer-scroll::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 5px;
+}
+
+.freelancer-card {
+  min-width: 220px;
+  background: white;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  flex-shrink: 0;
+  transition: transform 0.2s ease;
+}
+
+.freelancer-card:hover {
+  transform: translateY(-5px);
+}
+
+.freelancer-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 2px solid #1dbf73;
+}
+
+.freelancer-card .title {
+  font-weight: bold;
+  color: #333;
+}
+
+.freelancer-card .skills {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.freelancer-card button {
+  background-color: #1dbf73;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.freelancer-card button:hover {
+  background-color: #169a5e;
+}
+
+.scroll-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.scroll-buttons button {
+  background-color: #eee;
+  border: none;
+  padding: 6px 12px;
+  font-size: 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.scroll-buttons button:hover {
+  background-color: #ddd;
+}

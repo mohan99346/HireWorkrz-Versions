@@ -1,0 +1,130 @@
+
+/* Hero Section Styles */
+*{
+  padding: 0;
+  margin: 0;
+}
+.hero {
+  
+  position: relative;
+
+  max-width: 1700px;
+  display: flex;
+  align-items: center;
+  
+  height: 550vh;
+  
+  background: linear-gradient(to right,#ec9a01, #e2e2e2 );
+  color:#408EC6 ;
+}
+
+/* Left Content */
+.hero-content1 {
+    
+
+  margin-left:50px ;
+  
+  width: 1000px;
+  position: absolute;
+  top: 90px;
+
+   
+}
+
+.hero-content1 h1 {
+  position: relative;
+  top: 50px;
+
+  margin-right:200px ;
+  font-size: 2.5rem;
+  color: hwb(0 100% 0%);
+  font-weight: bold;
+  margin-bottom: 1rem;
+  width: 550px;
+}
+
+.hero-content1 p {
+  position: relative;
+  top: 50px;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+/* Buttons */
+.hero-buttons {
+  position: relative;
+  top: 190px;
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 50px;
+  transition: all 0.3s;
+}
+
+.primary-btn {
+  background: white;
+  color: #1dbf73;
+}
+
+.primary-btn:hover {
+  background: #f0f0f0;
+}
+
+.secondary-btn {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+.secondary-btn:hover {
+  background: white;
+  color: #1dbf73;
+}
+
+.hero-image img {
+    
+
+  position: relative;
+  left:800px;
+  bottom: 150px;
+
+
+  width: 450px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.hero-content2{
+ position: relative;
+ top: 400px;
+ right: 90px;
+}
+.hero-content2 p{
+  padding-top: 200px;
+  width: 1200px;
+  font-size: 2em;
+  color: hsl(0, 0%, 100%);
+}
+.freelancers-list{
+  position: relative;
+  bottom: 33%;
+  left: 50px;
+  
+}
+.freelancers-list h1{
+  position: relative;
+  top: 200px;
+  font-size: 40px;
+
+}
+.jobList{
+  position: absolute;
+  left: 30px;
+
+}
